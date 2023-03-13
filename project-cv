@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Roboto+Slab&family=Satisfy&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Slab', serif;
+           
+        }
+       
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 20px;
+    float: left;
+}
+.headerbio{
+    float: left;
+    padding: 40px;
+    margin: 30px 0px 0px 0px;
+}
+.contact{
+    float: right;
+    padding: 73px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    font-size: 1.2rem;
+  
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+}
+.left{
+  width: 30%;
+  float: left;
+}
+.right{
+    width: 70%;
+    float: left;
+}
+.personal-section{
+    padding: 20px;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.work-section{
+    padding-left: 20px;
+}
+.key-section{
+    padding-left: 20px;
+}
+ul{
+    padding-left: 17px;
+    padding-top: 5px;
+}
+::selection{
+    background-color: chocolate;
+}
+.rightedu{
+    width: 50%;
+    float: left;
+    padding-left: 46px;
+}
+.leftedu{
+    width: 43%;
+    float: left;
+}
+.education-section{
+    padding: 20px;
+    padding-top: 6px;
+}
+.award-section{
+    padding-left: 20px;
+    
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 51px;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+<img class="img" src="pic.png" alt="">
+<div class="headerbio">
+    <h1>Araf Ahmed</h1>
+    <h3>Web Devoloper</h3>
+</div>
+<div class="contact">
+    <p><a href="nayemhasan1314@gmail.com">Email: nayemhasan1314@gmail.com </a></p>
+    <p><a href="#">Website: www.arafahmed.com</a></p>
+    <p><a href="#">phone number: 01641658965</a></p>
+    </div>
+    </header>
+    <div class="clear"></div>
+    <hr>
+    <main>
+
+
+<section class="personal-section">
+    <div class="content">
+
+        <div class="left">
+            <h3>personal information</h3>
+        </div>
+    <div class="right">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, amet reiciendis rerum praesentium, a cupiditate eligendi perferendis laudantium enim quibusdam rem, inventore ipsam incidunt excepturi esse perspiciatis! Reprehenderit, quisquam vero?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, natus! lorem20
+
+    </div>
+   </div>
+</section>
+
+<div class="clear"></div>
+<hr class="common-hr">
+
+<section class="work-section">
+    <div class="content">
+
+        <div class="left">
+            <h3>work experience</h3>
+        </div>
+    <div class="right">
+        <h3>Student of green university</h3>
+        <h5>221 PC-CSE</h5>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, amet reiciendis rerum praesentium, a cupiditate eligendi perferendis laudantium enim quibusdam rem, inventore ipsam incidunt excepturi esse perspiciatis! Reprehenderit, quisquam vero?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, natus!lorem20 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, blanditiis error. Impedit tenetur pariatur illum necessitatibus consectetur voluptas vero ullam!
+<br><br>
+<h3>work as a software engineer</h3>
+<h5>221 PC-CSE</h5>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, amet reiciendis rerum praesentium, a cupiditate eligendi perferendis laudantium enim quibusdam rem, inventore ipsam incidunt excepturi esse perspiciatis! Reprehenderit, quisquam vero?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, natus!lorem20 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, blanditiis error. Impedit tenetur pariatur illum necessitatibus consectetur voluptas vero ullam!
+<br><br>
+<h3>work as a web Devoloper</h3>
+<h5>221 PC-CSE</h5>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, amet reiciendis rerum praesentium, a cupiditate eligendi perferendis laudantium enim quibusdam rem, inventore ipsam incidunt excepturi esse perspiciatis! Reprehenderit, quisquam vero?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, natus!lorem20 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, blanditiis error. Impedit tenetur pariatur illum necessitatibus consectetur voluptas vero ullam!
+    </div>
+    </div>
+   
+</section>
+<div class="clear"></div>
+<hr class="common-hr">
+
+<section class="key-section">
+    <div class="content">
+
+        <div class="left">
+            <h3>key skills</h3>
+        </div>
+    <div class="right">
+<h3>C language</h3>
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quod!
+    </li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sapiente?</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, excepturi.</li>
+    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, quasi.</li>
+</ul>
+<h3>Java language</h3>
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quod!
+    </li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sapiente?</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, excepturi.</li>
+    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, quasi.</li>
+</ul>
+<h3>HTML</h3>
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quod!
+    </li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sapiente?</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, excepturi.</li>
+    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, quasi.</li>
+</ul>
+<h3>CSS</h3>
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quod!
+    </li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sapiente?</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, excepturi.</li>
+    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, quasi.</li>
+</ul>
+    </div>
+   </div>
+</section>
+<div class="clear"></div>
+<hr class="common-hr">
+
+<!-- education section -->
+<section class="education-section">
+    <div class="content">
+
+        <div class="left">
+            <h3>Education & Qualification</h3>
+        </div>
+    <div class="right">
+<div class="leftedu">
+<h3>B.SC in Computer Science and Engineering</h3>
+<h5>2021...parmanent campus,dhaka</h5>
+<p>Green university of Bangladesh,Purbachal,Narayangonj,Dhaka</p>
+</div>
+<div class="rightedu">
+    <h3>Hsc complete in Dr.Musarrof Hossain Faundation college</h3>
+    <h5>2017/2018</h5>
+ 
+    <p>dr.musarrof foundation college,Cumilla,Daudkandi,Bangladesh</p>
+</div>
+    </div>
+   </div>
+</section>
+<div class="clear"></div>
+<hr class="common-hr">
+<section class="award-section">
+    <div class="content">
+
+        <div class="left">
+            <h3>Award</h3>
+        </div>
+    <div class="right">
+<h3>VC AWARD</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, laboriosam!</p>
+
+<br><h3>Hult Prize Award</h3>
+<h5>2022,Dhaka,Bangladesh</h5>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, laboriosam!</p>
+    </div>
+    </div>
+</section>
+<div class="clear"></div>
+<hr class="common-hr">
+    </main>
+    <footer class="foot">
+<a href="#">Home</a>
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">Linkdin</a><br>
+@Copyright &copf; Araf Ahemd-2023
+    </footer>
+    <div class="clear"></div>
+<hr class="common-hr">
+</div>
+</body>
+</html>
