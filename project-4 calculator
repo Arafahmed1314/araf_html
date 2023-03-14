@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>project-calculator</title>
+</head>
+<body>
+    <h1> CALCULATOR</h1>
+    <div class="cal">
+        <input type="text">
+        <div class="first">
+            <div class="a">C</div>
+            <div class="a">+/-</div>
+            <div class="a">%</div>
+            <div class="a b">/</div>
+        </div>
+        <div class="second">
+            <div class="a">7</div>
+            <div class="a">8</div>
+            <div class="a">9</div>
+            <div class="a b">*</div>
+        </div>
+        <div class="second">
+            <div class="a">4</div>
+            <div class="a">5</div>
+            <div class="a">6</div>
+            <div class="a b">-</div>
+        </div>
+        <div class="second">
+            <div class="a">1</div>
+            <div class="a">2</div>
+            <div class="a">3</div>
+            <div class="a b">+</div>
+        </div>
+        <div class="second">
+            <div class="a">0</div>
+            <div class="a">.</div>
+            <div class="a">DEL</div>
+            <div class="a b c">=</div>
+        </div>
+    </div>
+</body>
+</html>
