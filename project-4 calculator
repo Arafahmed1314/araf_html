@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calculator.css">
     <title>project-calculator</title>
-    style{
+</head>
+<style>
     .cal{
 height: 520px;
 width: 400px;
@@ -64,8 +65,7 @@ h1{
     background-color: rgb(46, 46, 152);
     color: white;
 }
-    }
-</head>
+</style>
 <body>
     <h1> CALCULATOR</h1>
     <div class="cal">
