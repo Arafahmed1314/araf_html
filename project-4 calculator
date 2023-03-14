@@ -6,6 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calculator.css">
     <title>project-calculator</title>
+    style{
+    .cal{
+height: 520px;
+width: 400px;
+border: 3px solid rebeccapurple;
+margin: 0px auto;
+box-shadow: 8px 8px 5px rgb(198, 162, 162);
+transition: 0.3s;
+}
+h1{
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+.cal:hover{
+    box-shadow: 1px 8px 25px 0px black ;
+}
+.cal input{
+    width: 397px;
+    height: 150px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 2px;
+    /* box-shadow: 4px 4px 3px rgb(198, 162, 162); */
+}
+
+.first{
+    margin: 0;
+}
+
+ .a{
+    float: left;
+    padding: 24px 16px;
+    margin: -1px 0px;
+    border: 3px solid #f0f0f0;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+.second{
+
+    margin:0;
+    
+}
+.b{
+    background-color: rgb(69, 13, 122);
+}
+.c{
+    background-color: rgb(172, 183, 18);
+}
+.a:hover{
+    background-color: rgb(46, 46, 152);
+    color: white;
+}
+    }
 </head>
 <body>
     <h1> CALCULATOR</h1>
